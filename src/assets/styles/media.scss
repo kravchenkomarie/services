@@ -1,0 +1,85 @@
+@media (max-width: 1020px) {
+  .footer {
+    &__logo {
+      display: none;
+    }
+    &__container {
+      grid-template-columns: 2fr;
+    }
+    &__links {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .header__container {
+    padding: 1.3em;
+  }
+
+  .header__links {
+    font-size: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    a {
+      padding: 0.5em;
+    }
+  }
+  .header__links-item:last-child {
+    padding-right: 0;
+  }
+  .header__links-item:nth-child(2) {
+    background-image: none;
+  }
+
+  .button {
+    width: 9em;
+    font-size: 12px;
+  }
+
+  .slide__info {
+    img {
+      width: 100%;
+    }
+  }
+  .carousel__title {
+    font-size: 30px;
+  }
+
+  .services__title {
+    font-size: 15px;
+  }
+
+  .card {
+    &__image {
+      img {
+        width: 85%;
+      }
+    }
+    &__text {
+      font-size: 8px;
+    }
+  }
+
+  .footer {
+    &__menu {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__title {
+      margin-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    &__links {
+      a {
+        font-size: 14px;
+      }
+    }
+
+    &__links-tel {
+      font-size: 10px;
+    }
+  }
+}
